@@ -1,3 +1,3 @@
 # JavaScript-Tutorial
-JavaScript Tutorial (Playlist)
+JavaScript Tutorial(Playlist)
 Educator : Harshit Vashisth
