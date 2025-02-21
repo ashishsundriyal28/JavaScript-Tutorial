@@ -91,15 +91,24 @@ const person1 = {
     id:1, 
     firstName:'harshit'
 }
+const person2 = { 
+    id:2, 
+    firstName:'harshita'
+}
 
 const extraInfo = new Map();
 // below is like person1(key) => (value){age:8,gender:"male"}
 extraInfo.set(person1,{age:8,gender:"male"});
+extraInfo.set(person2,{age:9,gender:"female"});
 console.log(person1.id);
+console.log(person2.id);
 console.log("extraInfo.keys() => ",extraInfo.keys());
 console.log(extraInfo.get(person1));
 console.log(extraInfo.get(person1).age);
 console.log(extraInfo.get(person1).gender);
+console.log(extraInfo.get(person2));
+console.log(extraInfo.get(person2).age);
+console.log(extraInfo.get(person2).gender);
 
 
 
