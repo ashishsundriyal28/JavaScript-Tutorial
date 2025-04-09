@@ -4,8 +4,10 @@
 
 // innerHTML to add html element
 const todoList = document.querySelector(".todo-list");
-console.log("todoList => ",todoList);
-console.log("todoList.innerHTML => ",todoList.innerHTML);
+console.log("------------ todoList ---------- ");
+console.log(todoList);
+console.log("------------ todoList.innerHTML ------------");
+console.log(todoList.innerHTML);
 
 // todoList.innerHTML = "<li>NEW TODO</li>";
 todoList.innerHTML += "<li>NEW TODO</li>";

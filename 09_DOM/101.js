@@ -51,34 +51,42 @@ console.log(headElementNode.childNodes);
 
 const h1 = document.querySelector("h1");
 const div = h1.parentNode;
+div.style.color = "#efefef";
+div.style.backgroundColor = "#333";
+
+
+// two ways to get body
 const body = h1.parentNode.parentNode;
 console.log(h1.parentNode);
-
-// div.style.color = "red";
-// div.style.backgroundColor = "green";
-
-body.style.color = "yellow";
-body.style.backgroundColor = "pink";
-
-
+body.style.color = "#ghghgh";
+body.style.backgroundColor = "#666";
 
 const body2 = document.body;
+console.log("body2 => ");
 console.log(body2);
+// body.style.color = "red";
+// body.style.backgroundColor = "yellow";
 
 
+// you can put *querySelector* in the HTML also
 const head = document.querySelector("head");
+console.log("head => ");
 console.log(head);
 
 const title = head.querySelector("title")
+console.log("title => ");
 console.log(title);
 console.log(title.childNodes);
 
 
+
 // ------------------------------------------------------------
-// if you dont want new-line or spaces as child nodes part
+// if you don't want new-line or spaces as child nodes part
 const container = document.querySelector(".container");
+console.log("container.childNodes => ");
 console.log(container.childNodes);
-// only child no new-line spaces
+// only child no new-line/spaces, just elements
+console.log("container.children => ");
 console.log(container.children);
 // ------------------------------------------------------------
 
